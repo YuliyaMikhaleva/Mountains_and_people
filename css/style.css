@@ -1,0 +1,33 @@
+.video{
+  
+    border: 1px solid;
+    position: relative;
+    color: #fff;
+    display: flex;
+}
+  
+  .video-file{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+   .big-txt{
+    font-family: arial;
+    font-size: 55px;
+    width: 63%;
+    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    left: 27px;
+    font-weight: 800;
+  } 
+  .txt{
+    font-family: arial;
+    font-size: 37px;
+    font-weight: 600;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 70px;
+    right: 27px;
+  }
